@@ -1,5 +1,4 @@
 from ext import create_app
-from routes import*
-app = create_app()
+from routes import *
 
-app.run(host="0.0.0.0",)
+create_app.run(host="0.0.0.0")
